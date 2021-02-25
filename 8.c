@@ -129,7 +129,7 @@ int main()
         getchar();
         if(cont_count == 'y') cont = 1;
     }
-
+    free(songs);
     return 0;
 }
 
