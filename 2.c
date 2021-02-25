@@ -95,5 +95,6 @@ int main()
 
     for(size_t j=0;j<i;j++) printf("|%20s | %20s | %20s | %16d | %15.3lf | %15.3lf |\n",
                songs[j].n_song,songs[j].n_singr,songs[j].genre,songs[j].year_of_rels,songs[j].rating_song,songs[j].rating_singr);
+    free(songs);
     return 0;
 }
